@@ -7,10 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
 
-  <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId={set_your_key}"></script>
+  <!-- <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId={set_your_key}"></script> -->
+
 </head>
 <body>
   <div class="wrapper">
+
+    <!-- Loading Image -->
+    <div class="loading">
+        <img src="./loading.gif" alt="loading bar">
+    </div>
+
     <div class="search">
       <input type="text" placeholder="지역 또는 도서관명 검색...">
       <button><i class="ri-search-line"></i></button>
@@ -19,12 +26,11 @@
       <!-- <img src="map_dumy.PNG" alt=""> -->
     </div>
 
-    
-
     <div class="detail_box">
       <div class="toBtn">
-        <div class="toJeju"><span><i class="ri-compass-2-fill"></i></span></div>
-        <div class="toSeoul"><span><i class="ri-compass-2-fill"></i></span></div>
+        <div class="toBusan"><span><i class="ri-compass-2-fill"></i>to부산</span></div>
+        <div class="toSeoul"><span><i class="ri-compass-2-fill"></i>to서울</span></div>
+        <div class="toNow"><span><i class="ri-compass-2-fill"></i>???</span></div>
       </div>
       <div class="guide">
         <i class="ri-arrow-drop-up-line"></i>
