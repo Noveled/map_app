@@ -1,6 +1,6 @@
 
 <p align="center" width="100%">
-<img src="assets/top_img.png" alt="top_img" style="width: 200px; height:200px; display: block; margin: auto; border-radius: 50%;">
+<img src="assets/top_img.PNG" alt="top_img" style="width: 200px; height:200px; display: block; margin: auto; border-radius: 50%;">
 </p>
 
 ## Update Logs
@@ -21,7 +21,7 @@ CodeLab: K-Digital Training AI 인공지능컨택센터(AICC) 웹서비스개발
 
 ## 바로 써보기: 반응형 웹 페이지(react-map-app)으로 만나보세요!
 
-### KR Library Map: 지도위 도서관 찾아보기
+### KR Library Map: 지도 위 도서관 찾아보기
 
 - 해당 데모는 
 - 2024년 8월 기준 페이지 개선을 위해 React 로 포팅하는 과정에 있습니다.
